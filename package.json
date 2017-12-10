@@ -17,19 +17,33 @@
     "websocket",
     "webhook"
   ],
-  "author": "“Astha <“asthajadia12@gmail.com”> (linkedin.com/in/astha-jadia-841b23135)",
+  "author": "Shishir <“shishir.sr01@gmail.com”> (https://github.com/shishir99111)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shishir99111/trading-bot/issues"
   },
   "homepage": "https://github.com/shishir99111/trading-bot#readme",
   "dependencies": {
+    "axios": "^0.17.1",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "boom": "^7.1.1",
     "dotenv-minimal": "^0.5.4",
     "express": "^4.16.2",
+    "geoip-lite": "^1.2.1",
+    "joi": "^13.0.2",
     "kiteconnect": "^1.2.2",
+    "moment": "^2.19.3",
     "mongoose": "^4.13.6",
     "mongoose-auto-increment": "^5.0.1",
     "morgan": "^1.9.0",
-    "pino": "^4.10.2"
+    "papaparse": "^4.3.6",
+    "pg": "^7.4.0",
+    "pino": "^4.10.2",
+    "q": "^1.5.1",
+    "redis": "^2.8.0",
+    "user-agent": "^1.0.4",
+    "useragent": "^2.2.1",
+    "uuid": "^3.1.0"
   }
 }

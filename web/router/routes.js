@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const authenticationHandler = require('./authenticate.handler');
 
 // routes loaded
 router.get('/', (req, res) => {
@@ -11,7 +10,7 @@ router.get('/', (req, res) => {
   });
 });
 
-router.post('/auth', authenticationHandler);
+require('./authentication')(router)
 
 /**
  * Appends different routes to the
